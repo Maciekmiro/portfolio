@@ -20,8 +20,11 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white
-  
   }
+    .large-font{
+      color:rgb(192, 207, 55);
+    }
+  
   .hero-text h1 {
 position: relative;
 animation: heading;
@@ -92,12 +95,6 @@ animation-fill-mode: forwards;
     padding: 20px;
   }
   
-
-
-.html {width: 60%; background-color: rgb(182, 94, 22);}
-.css {width: 40%; background-color: rgb(182, 94, 22); }
-.js {width: 40%; background-color: rgb(182, 94, 22); }
-    
   .social {
     text-align: center;
   }
@@ -164,3 +161,7 @@ animation-fill-mode: forwards;
   padding: 20px;
 }
 
+.progress{
+  margin: 2vh 0;
+  height: 4vh !important;
+}
